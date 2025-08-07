@@ -4,7 +4,7 @@ import joblib
 
 # Load the model and features
 model = joblib.load("best_model(1).pkl")
-features = joblib.load("feature_columns(1).pkl")
+features = joblib.load("feature_columns (1).pkl")
 
 # Streamlit UI
 st.set_page_config(page_title="AQI Predictor", layout="centered")
